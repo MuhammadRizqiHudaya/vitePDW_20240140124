@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=DM+Sans:wght@300;400;500&display=swap');
+
+:root {
+  --primary:    #2d5a1b;
+  --primary-lt: #3d7a26;
+  --primary-dk: #1a3a0f;
+  --gold:       #c8900a;
+  --gold-lt:    #f5c842;
+  --cream:      #faf6ed;
+  --bark:       #7a4a1e;
+  --leaf:       #6abf3e;
+  --text:       #2c1f0e;
+  --text-muted: #6b5e4e;
+  --border:     #d9cdb8;
+  --bg:         #faf6ed;
+  --card-bg:    #ffffff;
+  --shadow:     0 4px 24px rgba(45,90,27,0.10);
+  --shadow-lg:  0 8px 40px rgba(45,90,27,0.16);
+
+  font-family: 'DM Sans', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+body { margin: 0; }
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-dk);
+}
